@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-weight: normal;
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    cursor: pointer;
+}
+header{
+    background-color: #092546;
+    display: flex;
+    color: white;
+    gap: 5px;
+    padding: 20px;
+    align-items: center;
+}
+.Icone-Electrolux{
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+}
+.Icone-Localização{
+    height: 20px;
+    width: auto;
+}
+.container1{
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+}
+.CEP{
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.CEP:hover{
+    text-decoration: underline;
+}
+input{
+    padding: 25px;
+    padding-right: 400px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 50px;
+    outline: none;
+}
+
+input[type="text"] {
+    background-image: url('Icone-Lupa.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 45px;
+    height: 35px;
+    font-size: 20px;
+}
+
+input:focus {
+    box-shadow: 0 0 0 2px #17176b;
+}
+.container3{
+    margin-left: 100px;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+.PerfilECompras{
+    height: 25px;
+    width: auto;
+    cursor: pointer;
+}
+.container4{
+    margin-top: 75px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.BannerSlide{
+    height: 333px;
+    width: auto;
+}
+h3{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-align: center;
+    color: #092546;
+    font-size: 40px;
+}
+.container5{
+    margin: 15px;
+    border-top: 5px solid #092546;
+    border-bottom: 5px solid #092546;
+    margin-top: 60px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 25px;
+}
+.Produtos{
+    position: relative;
+}
+.Produto{
+    border-radius: 25px 5px 25px 5px;
+    width: 200px;
+    height: 400px;
+}
+.SobreOProduto{
+    position: absolute;
+    bottom: 0px;
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    background-color: #092546;
+    text-align: center;
+    border: none;
+    border-radius: 0 15px 15px;
+}
+.container6{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 25px;
+    border-top: 5px solid #092546;
+    border-bottom: 5px solid #092546;
+    gap: 5px;
+    display: flex;
+}
+.Selection{
+    position: relative;
+}
+.ItemSelection{
+    border-radius: 20px 20px 0 0;
+    height: 300px;
+    width: 360px;
+}
+.Especial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    color: white;
+    font-size: 15px;
+    background-color: #041E50;
+}
+strong{
+    font-weight: bold;
+}
+button{
+    font-size: 17.5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 5px;
+    background-color: #041E50;
+    color: white;
+}
+h6{
+    font-weight: bold;
+    color: #414141;
+    text-align: center;
+}
+.container7{
+    justify-content: space-around;
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+}
+h4{
+    font-size: 16.5px;
+    color: #041E50;
+    font-weight: bold;
+}
+.Lux{
+    margin-top: 10px;
+    max-width: 200px;
+    color: #213864;
+    font-size: 14.5px;
+}
+.Electro{
+    max-height: 64px;
+}
+.Beneficios{
+    width: auto;
+    height: 64px;
+    margin-bottom: 5px;
+}
+.container8{
+    margin-top: 200px;
+}
