@@ -5,6 +5,9 @@
     font-weight: normal;
     font-family: "Poppins", sans-serif;
 }
+body{
+    background-color: #eaeaea;
+}
 h1{
     cursor: pointer;
 }
@@ -22,6 +25,7 @@ header{
     cursor: pointer;
 }
 .Icone-Localização{
+    cursor: pointer;
     height: 20px;
     width: auto;
 }
@@ -45,7 +49,7 @@ header{
 .CEP:hover{
     text-decoration: underline;
 }
-input{
+.Pesquisa{
     padding: 25px;
     padding-right: 400px;
     border: none;
@@ -54,7 +58,7 @@ input{
     outline: none;
 }
 
-input[type="text"] {
+.Pesquisa[type="text"] {
     background-image: url('Icone-Lupa.png');
     background-repeat: no-repeat;
     background-position: 10px center;
@@ -63,7 +67,7 @@ input[type="text"] {
     font-size: 20px;
 }
 
-input:focus {
+.Pesquisa:focus {
     box-shadow: 0 0 0 2px #17176b;
 }
 .container3{
@@ -78,12 +82,16 @@ input:focus {
     cursor: pointer;
 }
 .container4{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: white;
     margin-top: 75px;
     align-items: center;
     justify-content: center;
     display: flex;
 }
 .BannerSlide{
+    cursor: pointer;
     height: 333px;
     width: auto;
 }
@@ -138,6 +146,7 @@ h3{
     position: relative;
 }
 .ItemSelection{
+    cursor: pointer;
     border-radius: 20px 20px 0 0;
     height: 300px;
     width: 360px;
@@ -160,7 +169,8 @@ h3{
 strong{
     font-weight: bold;
 }
-button{
+.Compre{
+    cursor: pointer;
     font-size: 17.5px;
     margin-top: 10px;
     border-radius: 5px;
@@ -192,6 +202,7 @@ h4{
     font-size: 14.5px;
 }
 .Electro{
+    cursor: pointer;
     max-height: 64px;
 }
 .Beneficios{
@@ -200,5 +211,111 @@ h4{
     margin-bottom: 5px;
 }
 .container8{
+    justify-content: space-around;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-top: 200px;
+    background-color: white;
+}
+h2{
+    max-width: 390px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #011E41;
+}
+h5{
+    font-size: 16.5px;
+    color: #515253;
+    max-width: 485px;
+}
+.box-C8-2{
+    margin-top: 60px;
+}
+.Rede{
+    cursor: pointer;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.container9{
+    margin-top: 25px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+.box-C9-1{
+    display: grid;
+    gap: 15px;
+}
+.Carta{
+    width: auto;
+    height: 45px;
+}
+.Information-Update{
+    max-width: 450px;
+    font-size: 20px;
+    color: #474747;
+}
+.box-C9-2{
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.Cadastro-input{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 50px 10px 50px;
+    
+}
+.P-input{
+    font-size: 20px;
+    color: #474747;
+}
+.Cadastro{
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    border: none;
+    background-color: #011E41;
+}
+.left-Cadastro{
+    max-width: 850px;
+}
+.container10{
+    padding-top: 50px;
+    background-color: white;
+    color: #001835;
+    display: flex;
+    margin-left: 20px;
+    gap: 10px;
+    margin-top: 75px;
+}
+.container11{
+    justify-content: space-around;
+    display: flex;
+    padding-top: 50px;
+    background-color: white;
+}
+.p1{
+    color: #001835;
+    font-size: 20px;
+    font-weight: bold;
+}
+u{
+    font-weight: bold;
+    color: #2e2e2e;
+    text-decoration-thickness: 1px;
+}
+.p2{
+    max-width: 305px;
+    color: #343434;
+}
+.box-C11{
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
 }
