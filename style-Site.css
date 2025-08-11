@@ -274,6 +274,7 @@ h5{
     color: #474747;
 }
 .Cadastro{
+    cursor: pointer;
     margin-top: 10px;
     font-size: 15px;
     border-radius: 5px;
@@ -281,6 +282,9 @@ h5{
     color: white;
     border: none;
     background-color: #011E41;
+}
+.Cadastro:hover{
+    background-color: #213864;
 }
 .left-Cadastro{
     max-width: 850px;
@@ -306,11 +310,17 @@ h5{
     font-weight: bold;
 }
 u{
+    cursor: pointer;
     font-weight: bold;
     color: #2e2e2e;
     text-decoration-thickness: 1px;
 }
+.notCursor{
+    max-width: 305px;
+    color: #343434;
+}
 .p2{
+    cursor: pointer;
     max-width: 305px;
     color: #343434;
 }
@@ -318,4 +328,13 @@ u{
     flex-direction: column;
     display: flex;
     gap: 10px;
+}
+.Pagamento{
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+}
+.forma{
+    display: flex;
+    gap: 5px;
 }
