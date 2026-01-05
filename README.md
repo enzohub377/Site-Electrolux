@@ -111,7 +111,7 @@ Evoluir no uso de HTML e CSS
 👨‍💻 Autor
 
 Enzo Miguel P. da Silva
-📧 Email: enzoideias01@gmail.com
+📧 Email: piresenzo75@gmail.com
 
 📱 Telefone: (19) 98869-7421
 
